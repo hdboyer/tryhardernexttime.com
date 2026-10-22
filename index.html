@@ -1,1 +1,91 @@
-Work in progress ;)
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f5f0e8">
+    <meta name="description" content="This page is temporarily unavailable.">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+    <title>We'll be right back</title>
+  </head>
+  <body>
+    <main id="offline" class="offline-shell" aria-live="polite">
+      <section class="offline-card">
+        <span class="offline-mark" aria-hidden="true">↻</span>
+        <p class="eyebrow">Temporary intermission</p>
+        <h1>We’ll be right back.</h1>
+        <p>This page is taking a quick breather. Try again a little later.</p>
+        <button id="retry-button" class="neutral-button" type="button">Try again</button>
+      </section>
+    </main>
+
+    <div id="site" hidden>
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="OnlyTryHards home">
+          <span>Only</span><strong>TryHards</strong><i aria-hidden="true">✦</i>
+        </a>
+        <button class="header-button joke-action" type="button">Log in-ish</button>
+      </header>
+
+      <main id="top" class="page-shell">
+        <section class="profile-card" aria-labelledby="profile-name">
+          <div class="cover-art" aria-hidden="true">
+            <span class="cover-word cover-word-one">TRY</span>
+            <span class="cover-word cover-word-two">HARDER</span>
+            <span class="cover-star">★</span>
+          </div>
+          <div class="profile-content">
+            <div id="avatar" class="avatar" aria-hidden="true">TH</div>
+            <div class="profile-heading">
+              <div>
+                <p class="eyebrow parody-label">100% fictional parody</p>
+                <h1 id="profile-name">Try Harder</h1>
+                <p id="profile-handle" class="handle">@tryhardernexttime</p>
+              </div>
+              <button class="subscribe-button joke-action" type="button">Subscribe for $0.00</button>
+            </div>
+            <p id="profile-bio" class="bio"></p>
+            <dl class="stats" aria-label="Profile statistics">
+              <div><dt id="post-count">0</dt><dd>posts</dd></div>
+              <div><dt id="fan-count">7</dt><dd>fans*</dd></div>
+              <div><dt id="effort-score">110%</dt><dd>effort</dd></div>
+            </dl>
+            <p class="stats-footnote">*Several may be relatives.</p>
+          </div>
+        </section>
+
+        <div class="feed-heading">
+          <div>
+            <p class="eyebrow">The premium feed</p>
+            <h2>Posts worth exactly what you paid</h2>
+          </div>
+          <span class="live-pill"><i aria-hidden="true"></i> questionably live</span>
+        </div>
+
+        <section id="feed" class="feed" aria-label="Photo posts"></section>
+      </main>
+
+      <footer class="site-footer">
+        <p><strong>OnlyTryHards</strong> is an obvious joke and is not affiliated with OnlyFans or any real creator platform.</p>
+        <p>No payments, accounts, tracking, or dignity were collected.</p>
+      </footer>
+    </div>
+
+    <div id="ad-modal" class="modal" hidden>
+      <div class="modal-backdrop" data-modal-close></div>
+      <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-copy">
+        <button id="modal-close" class="modal-close" type="button" aria-label="Close fake advertisement">×</button>
+        <span class="ad-kicker">Sponsored by absolutely nobody</span>
+        <div class="modal-emoji" aria-hidden="true">🏆</div>
+        <h2 id="modal-title">Congratulations, probably!</h2>
+        <p id="modal-copy">You are today’s 10,000th person with suspiciously good taste.</p>
+        <button id="modal-cta" class="modal-cta joke-action" type="button">Claim no prize</button>
+        <small>This is a fake ad. Please remain calm.</small>
+      </section>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

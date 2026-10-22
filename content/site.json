@@ -1,0 +1,34 @@
+{
+  "brand": "OnlyTryHards",
+  "description": "An unmistakably fictional creator-profile parody with elite levels of effort.",
+  "profile": {
+    "displayName": "Try Harder",
+    "handle": "@tryhardernexttime",
+    "bio": "Putting in maximum effort for minimum results. Exclusive access to questionable fits, unnecessary confidence, and content nobody requested.",
+    "initials": "TH",
+    "fanCount": "7",
+    "effortScore": "110%"
+  },
+  "ads": [
+    {
+      "headline": "Confidence now sold separately.",
+      "copy": "One easy payment of absolutely nothing gets you the confidence to post first and think later.",
+      "cta": "Become unstoppable"
+    },
+    {
+      "headline": "Is your mirror hyping you enough?",
+      "copy": "Upgrade to Mirror Pro Max and receive compliments from the only expert who matters: you.",
+      "cta": "Reflect on this"
+    },
+    {
+      "headline": "Premium air for premium people.",
+      "copy": "Bottled near a window. Artisanal. Emotionally carbonated. Scientifically unnecessary.",
+      "cta": "Breathe responsibly"
+    }
+  ],
+  "modalAd": {
+    "headline": "You look extremely subscribable today.",
+    "copy": "Our advanced technology detected confidence levels that may be visible from space.",
+    "cta": "Claim no prize"
+  }
+}
